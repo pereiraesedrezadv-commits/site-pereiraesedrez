@@ -728,8 +728,7 @@ ul { list-style: none; padding: 0; }
    ============================================================ */
 @media (max-width: 980px) {
   .about-grid { grid-template-columns: 1fr; }
-  .about-media { aspect-ratio: 16/7; padding: 30px; order: -1; }
-  .about-mark { width: 150px; }
+  .about-media { aspect-ratio: 4/5; order: -1; max-width: 440px; margin-inline: auto; }
   .featured-grid { grid-template-columns: 1fr; }
   .footer-inner { grid-template-columns: 1fr 1fr; }
   .footer-brand { grid-column: 1 / -1; }
